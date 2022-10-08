@@ -15,7 +15,7 @@
 ;    Date:                                                            *
 ;    File Version:                                                    *
 ;                                                                     *
-;    Author:                                                          *
+;    Author:  RANDRIANIAINATSITERA D'Orus                                                        *
 ;    Company:                                                         *
 ;                                                                     * 
 ;                                                                     *
