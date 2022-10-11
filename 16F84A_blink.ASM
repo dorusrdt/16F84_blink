@@ -1,7 +1,7 @@
 ;**********************************************************************
 ;   This file is a basic code template for assembly code generation   *
 ;   on the PIC16F84A. This file contains the basic code               *
-;   building blocks to build upon.                                    *  
+;   building blocks to build upon.                                    *
 ;                                                                     *
 ;   Refer to the MPASM User's Guide for additional information on     *
 ;   features of the assembler (Document DS33014).                     *
@@ -17,7 +17,7 @@
 ;                                                                     *
 ;    Author:  RANDRIANIAINATSITERA D'Orus                                                        *
 ;    Company:                                                         *
-;                                                                     * 
+;                                                                     *
 ;                                                                     *
 ;**********************************************************************
 ;                                                                     *
@@ -43,7 +43,7 @@
 
 
 ;***** VARIABLE DEFINITIONS
-w_temp        EQU     0x0C        ; variable used for context saving 
+w_temp        EQU     0x0C        ; variable used for context saving
 status_temp   EQU     0x0D        ; variable used for context saving
 
 
@@ -71,8 +71,7 @@ status_temp   EQU     0x0D        ; variable used for context saving
 		movwf	STATUS            ; restore pre-isr STATUS register contents
 		swapf   w_temp,f
 		swapf   w_temp,w          ; restore pre-isr W register contents
-		retfie                    ; return from interrupt
-
+		retfie                    ; return from interrupt s
 
 
 main
@@ -89,4 +88,3 @@ main
 
 
 		END                     ; directive 'end of program'
-
